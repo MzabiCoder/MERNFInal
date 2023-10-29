@@ -27,7 +27,7 @@ const ShippingScreen = () => {
   };
 
   return (
-    <FormContainer>
+    <FormContainer data-aos="fade-up">
       <CheckoutSteps step1 step2 />
       <h1>Shipping</h1>
       <Form onSubmit={submitHandler}>

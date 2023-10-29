@@ -42,7 +42,7 @@ const LoginScreen = () => {
   };
 
   return (
-    <FormContainer>
+    <FormContainer data-aos="fade-up">
       <h1>Sign In</h1>
 
       <Form onSubmit={submitHandler}>

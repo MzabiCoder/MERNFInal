@@ -45,8 +45,8 @@ const PlaceOrderScreen = () => {
 
   return (
     <>
-      <CheckoutSteps step1 step2 step3 step4 />
-      <Row>
+      <CheckoutSteps step1 step2 step3 step4 data-aos="fade-up" />
+      <Row data-aos="fade-up">
         <Col md={8}>
           <ListGroup variant='flush'>
             <ListGroup.Item>
@@ -128,12 +128,12 @@ const PlaceOrderScreen = () => {
                   <Col>Total</Col>
                   <Col>${cart.totalPrice}</Col>
                 </Row>
-              </ListGroup.Item>
-              <ListGroup.Item>
+              </ListGroup.Item> 
                 {error && (
+                   <ListGroup.Item>
                   <Message variant='danger'>{error.data.message}</Message>
-                )}
-              </ListGroup.Item>
+                  </ListGroup.Item>
+                )}            
               <ListGroup.Item>
                 <Button
                   type='button'

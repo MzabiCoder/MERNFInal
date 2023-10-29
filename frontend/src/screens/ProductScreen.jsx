@@ -79,7 +79,7 @@ const ProductScreen = () => {
       ) : (
         <>
           <Meta title={product.name} description={product.description} />
-          <Row>
+          <Row data-aos="fade-up">
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
             </Col>
@@ -158,7 +158,7 @@ const ProductScreen = () => {
               </Card>
             </Col>
           </Row>
-          <Row className='review'>
+          <Row className='review' data-aos="fade-up">
             <Col md={6}>
               <h2>Reviews</h2>
               {product.reviews.length === 0 && <Message>No Reviews</Message>}

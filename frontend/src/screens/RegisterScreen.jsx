@@ -49,7 +49,7 @@ const RegisterScreen = () => {
   };
 
   return (
-    <FormContainer>
+    <FormContainer data-aos="fade-up">
       <h1>Register</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group className='my-2' controlId='name'>

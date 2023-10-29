@@ -51,7 +51,7 @@ const ProfileScreen = () => {
   };
 
   return (
-    <Row>
+    <Row data-aos="fade-up">
       <Col md={3}>
         <h2>User Profile</h2>
 
