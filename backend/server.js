@@ -12,7 +12,10 @@ import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
 const port = process.env.PORT || 5000;
 
-connectDB();
+
+(async() => {
+  await connectDB();
+ })()
 
 const app = express();
 
