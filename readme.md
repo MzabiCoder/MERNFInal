@@ -4,7 +4,7 @@
 
 <img src="./frontend/public/images/screens.png">
 
-This project is part of my [MERN Stack From Scratch | eCommerce Shop Platform] It is a full-featured shopping cart with PayPal & credit/debit payments. See it in action at https://www.proshopdemo.dev
+This project is part of my [MERN Stack From Scratch | eCommerce Shop Platform] It is a full-featured shopping cart with PayPal & credit/debit payments. See it in action at https://myshopf.onrender.com/
 
 This is version 2.0 of the app, which uses Redux Toolkit.
 
