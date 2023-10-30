@@ -10,7 +10,6 @@ This is version 2.0 of the app, which uses Redux Toolkit.
 
 ## Features
 
-
 - User profile with orders
 - Admin product management
 - Admin user management

@@ -66,7 +66,7 @@ const LoginScreen = () => {
           ></Form.Control>
         </Form.Group>
 
-        <Button disabled={isLoading} type='submit' variant='primary'>
+        <Button disabled={isLoading} className="links" type='submit' variant='primary'>
           Sign In
         </Button>
 
@@ -76,7 +76,7 @@ const LoginScreen = () => {
       <Row className='py-3'>
         <Col>
           New Customer?{' '}
-          <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
+          <Link className="links" to={redirect ? `/register?redirect=${redirect}` : '/register'}>
             Register
           </Link>
         </Col>

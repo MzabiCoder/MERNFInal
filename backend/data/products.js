@@ -1,7 +1,7 @@
 const products = [
   {
     name: 'SOJOS Sunglasses',
-    image: '/images/CanonCamera.jpeg',
+    image: '/images/SOJOSSunglasses.webP',
     description:'HIGH-DEFINITION UV400 TAC POLARIZED LENSES – SojoS HD TAC polarized lenses can filter out sunlight reflected glare',
     brand: 'SOJOS',
     category: 'Accessories',
