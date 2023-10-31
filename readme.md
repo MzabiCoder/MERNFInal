@@ -1,4 +1,6 @@
 
+ MERN Satck App, full-featured shopping cart with PayPal & credit/debit payments. 
+ Checkout the app live https://myshop-sl5l.onrender.com/
 ## Features
 
 - User profile with orders
